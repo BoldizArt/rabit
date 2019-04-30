@@ -1,0 +1,98 @@
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/** Content */
+.container {
+    width: calc(90% - 30px);
+    min-height: calc(100vh - 175px);
+    margin: auto;
+    padding: 15px;
+}
+.content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.center {
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+.title::after {
+    content: '';
+    height: 2px;
+    background: #4d4d4d;
+    display: block;
+    width: 60px;
+    margin: auto;
+}
+
+/** Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    color: #4d4d4d;
+    text-decoration: none;
+    transition: background-color ease 640ms;
+}
+.btn:hover {
+    background-color: #4d4d4d;
+    color: #fff;
+}
+
+/** Not found page */
+.not-found {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** List table */
+.table {
+    min-width: 40%;
+    max-width: 100%;
+    text-align: left;
+    margin: auto;
+}
+.table .table-header {
+    font-weight: bold;
+}
+.table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+/** Messages */
+.message {
+    padding: 10px 25px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.message.error {
+    color: #cc0000;
+    border-color: #cc0000;
+}
+
+/** Footer */
+.footer {
+    width: calc(100% - 50px);
+    padding: 25px;
+    margin-top: 45px;
+    background: #4d4d4d;
+    text-align: center;    
+}
+.footer .copyright {
+    color: #fff;
+}

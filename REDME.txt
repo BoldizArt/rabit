@@ -1,0 +1,5 @@
+Please follow the instructions below:
+
+1. Create a new database, called "boldizsar_rabit";
+2. Import the "boldizsar_rabit.sql" file from the /sql folder;
+3. Change the database credentials in the /scr/Model/DB.php

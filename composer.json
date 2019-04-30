@@ -1,0 +1,17 @@
+{
+    "name": "boldizsar/rabit",
+    "description": "RabIT teszt feladat...",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boldizsár Szántó",
+            "email": "boldizar.santo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Boldizsar\\RabIT\\": "src/"}
+    }
+}
